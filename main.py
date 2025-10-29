@@ -34,13 +34,13 @@ def send_email_notification(output_folder, filename, row_count, minutes_threshol
             f"File Path: {cleaned_path}\n"
             f"Rows in File: {row_count}\n\n"
         )
-        mail.To = "Luc.visser@ab-inbev.com"
+        mail.To = "Luc.visser@ab-inbev.com"; "kiran.kaur@ab-inbev.com"
         mail.Send()
 
         logger.info(f"✅ Email sent for new file: {full_path}")
 
     except Exception as e:
-        logger.error(f"[ERROR] {e}")
+        logger.error(f"[ERROR line 43] {e}")
 
 
 def standardize_date_column(df, col_name):
