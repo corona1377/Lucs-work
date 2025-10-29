@@ -5,7 +5,7 @@ BASE_FOLDER = r"C:\Users\VISSERLU\Anheuser-Busch InBev\SFDC COE - EUR - General\
 
 COUNTRY_RULES = {
     "BE data": {
-        "keywords": ["beoff.displays@ab-inbev.com"],
+        "keywords": ["beoff.displays@ab-inbev.com", "Mickey"],
         "prefix": "ABI - Display Data",
         "folder": os.path.join(BASE_FOLDER, "BE Display Load"),
         "country_code": "BE",
@@ -38,6 +38,7 @@ COUNTRY_RULES = {
             "BE",
             "Belgium",
             "Belgique",
+            "Belg",
         ],
         "prefix": "BE Weekly Report",
         "folder": os.path.join(BASE_FOLDER, "BE Display Load"),
