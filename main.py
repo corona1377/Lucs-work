@@ -40,7 +40,7 @@ def send_email_notification(output_folder, filename, row_count, minutes_threshol
         logger.info(f"✅ Email sent for new file: {full_path}")
 
     except Exception as e:
-        logger.error(f"[ERROR in send_email_notification] {e}")
+        logger.error(f"[ERROR] {e}")
 
 
 def standardize_date_column(df, col_name):
