@@ -191,3 +191,5 @@ for i, message in enumerate(messages):
 
 if not matches_found:
     logger.info("No matching emails with .xlsx attachments.")
+
+logger.info("Script execution completed.")
