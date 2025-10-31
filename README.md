@@ -1,3 +1,9 @@
+Display Registration — Data Loader Flow
+Date: 2025-10-31
+Scope: Belgium, France, Netherlands, Italy
+
+This is the description for the whole process not the code 
+
 1. Purpose
 This document outlines the end-to-end process for managing weekly Display Registration data for the countries BE, FR, NL, and IT. The goal is to automate the process of downloading, formatting, and importing display data into Salesforce while maintaining accuracy, oversight, and traceability.
 Key Objectives:
